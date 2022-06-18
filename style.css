@@ -30,7 +30,7 @@
     box-sizing: border-box;
 }
 
-html, body {
+html {
     height: 100%;
     width: 100%;
 }
@@ -41,6 +41,8 @@ body {
     display: flex;
     font-family: "Segoe UI";
     justify-content: center;
+    min-height: 100%;
+    width: 100%;
 }
 
 section {
@@ -136,7 +138,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding: 12px 40px;
+    padding: 12px 24px;
     width: 100%;
 }
 
@@ -147,6 +149,8 @@ main {
 .app-download__stores {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 12px;
 }
 
@@ -206,4 +210,25 @@ footer > a:hover {
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
+}
+
+@media (max-width: 800px) { 
+    .phones {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 32px;
+    }
+
+    .log-in {
+        width: 100%;
+    }
+
+    .user-info, .change-or-create-account {
+        background-color: transparent;
+        border: none;
+    }
 }
