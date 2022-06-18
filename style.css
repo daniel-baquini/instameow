@@ -173,3 +173,22 @@ body {
         border: 1px solid transparent;
     }
 }
+
+
+.text-preset-200 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.text-preset-250 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.text-preset-260 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
