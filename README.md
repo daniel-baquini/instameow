@@ -4,7 +4,7 @@ Este repositório foi criado para o desafio da DIO, onde foi solicitado criar um
 
 ## Alterações
 
-Este repositório é um fork do clone criado durantes as aulas, resolvi alterar o código HTML por conta da semântica e também para se adaptar melhor a nomenclatura CSS utilizada (BEM).
+Este repositório é um fork do clone criado durante as aulas da DIO sobre flexbox, resolvi alterar o código HTML por conta da semântica e também para se adaptar melhor a nomenclatura CSS utilizada (BEM).
 
 No CSS, alterei os media queries para ficarem mais condizentes com o design, tendo responsividade para desktop, tablet e mobile. Também fiz o uso de variáveis para organizar as cores, e separei toda a tipografia em classes específicas para isso.
 
