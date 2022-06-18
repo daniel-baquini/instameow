@@ -94,7 +94,6 @@ main {
 
 .user-info__remove-account-button {
     color: var(--c-primary-60);
-    cursor: pointer;
     text-decoration: none;
     transition: 300ms;
 }
@@ -119,8 +118,8 @@ main {
 }
 
 .change-or-create-account__switch-accounts, .change-or-create-account__create-account {
-    cursor: pointer;
     color: var(--c-primary-60);
+    text-decoration: none;
     transition: 300ms;
 }
 
@@ -130,6 +129,49 @@ main {
 
 .change-or-create-account__or {
     color: var(--c-dark-80);
+}
+
+.app-download {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 12px 40px;
+    width: 100%;
+}
+
+.app-download__download-call {
+    color: var(--c-dark-80);
+}
+
+.app-download__stores {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.app-download_store {
+    cursor: pointer;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+footer > a {
+    color: var(--c-dark-45);
+    text-decoration: none;
+    transition: 300ms;
+}
+
+footer > a:hover {
+    color: var(--c-dark-60);
+    text-decoration: underline;
 }
 
 .primary-button {
