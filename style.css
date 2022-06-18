@@ -1,5 +1,18 @@
 @import url('./reset.css');
 
+:root {
+    --c-dark-30: rgba(0, 0, 0, 0.30);
+    --c-dark-45: rgba(0, 0, 0, 0.45);
+    --c-dark-60: rgba(0, 0, 0, 0.60);
+    --c-dark-80: rgba(0, 0, 0, 0.80);
+    --c-dark-100: #000000;
+    --c-primary-60: #0095F6;
+    --c-primary-70: #007CCD;
+    --c-primary-80: #0064A4;
+    --c-primary-90: #004B7C;
+    --c-white-10: #FFFFFF;
+    --c-white-20: #FAFAFA;
+}
 
 * {
     padding: 0;
