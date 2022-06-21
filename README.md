@@ -8,8 +8,10 @@ Este repositório é um fork do clone criado durante as aulas da DIO sobre flexb
 
 No CSS, alterei os media queries para ficarem mais condizentes com o design, tendo responsividade para desktop, tablet e mobile. Também fiz o uso de variáveis para organizar as cores, e separei toda a tipografia em classes específicas para isso.
 
-## Como executar esse projeto
+## Como visualizar este projeto
 
-Para executar este projeto, basta clonar ele e abrir através de qualquer servidor web.
+Este projeto possui uma página no github, que pode ser acessada clicando [aqui](https://daniel-baquini.github.io/instameow/)
+
+Se preferir fazer download do projeto e executar localmente, basta clonar ele e abrir através de qualquer servidor web.
 
 Dica: Se você utiliza o visual studio code, utilize a extensão [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), ela facilita bastante a criação de um servidor web.
